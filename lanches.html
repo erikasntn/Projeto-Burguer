@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+        href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+        rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="cardapio.css" />
+        <title>Projeto Burguer</title>
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <style>
+        .dropdown {
+        width: 200px; /* define a largura do submenu */
+        position: absolute;
+        left: 0;
+        display: none;
+        background-color: var(--white); /* adiciona fundo branco ao submenu */
+        padding: 10px; /* adiciona espaço interno */
+        border-radius: 10px;
+    }
+
+    .nav-item {
+        position: relative;
+        /* adiciona espaço abaixo do item "Cardápio" */
+        margin-bottom: 10px;
+    }
+
+    .nav-item:hover .dropdown {
+        display: block;
+    }
+
+    .dropdown li {
+        width: 100%; /* define a largura dos itens do submenu */
+        margin-bottom: 20px; /* adiciona espaço vertical entre os itens */
+    
+    }
+    
+    
+        </style>
+    </head>
+    <body>
+        <header>
+        <nav class="navigation">
+            <a href="#" class="logo">F<span>oo</span>D B<span>uu</span>rguer</a>
+            <ul class="nav-menu">
+            <li class="nav-item"><a href="file:///C:/Users/ERIKA/Desktop/projetoo/index.html">Home</a></li>
+            <li class="nav-item"><a href="file:///C:/Users/ERIKA/Desktop/projetoo/sobrenos.html">Sobre nós</a></li>
+            <li class="nav-item">
+                <a href="file:///C:/Users/ERIKA/Desktop/projetoo/index.html">Cardápio</a>
+                <ul class="dropdown">
+                <li><a href="#">Lanches</a></li>
+                <li><a href="file:///C:/Users/ERIKA/Desktop/projetoo/bebidas.html">Bebidas</a></li>
+                <li><a href="file:///C:/Users/ERIKA/Desktop/projetoo/sobremesa.html">Sobremesas</a></li>
+                    <li><a href="file:///C:/Users/ERIKA/Desktop/projetoo/lanches.html"></a></li>
+                </ul>
+            </li>
+            <li class="nav-item"><a href="file:///C:/Users/ERIKA/Desktop/projetoo/contato.html">Contato</a></li>
+            <li><a href="#"><i class="bx bx-search search-icon"></i></a></li>
+            </ul>
+        </nav>
+    <div class="menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+</header>
+<section class="home" id="cardapio">
+    <h2>Sobremesas</h2>
+    <ul>
+      <li>
+        <h3>COMBO PIZZABURGUER</h3>
+        <img src="img/pizzabur.jpg" alt="zzaburguer">
+        <p>Lanche + duas fatias de pizza</p>
+        <span>R$ 35,99</span>
+      </li>
+      <li>
+        <h3>Picanhouu</h3>
+        <img src="img/lznche.jpg" alt="Picanhouu">
+        <p>Hamburguer delicioso de picanha</p>
+        <span>R$ 26,90</span>
+      </li>
+      <li>
+        <h3>Lanche Natural</h3>
+        <img src="img/naturak.jpg" alt="Lanche Natural">
+        <p>Para quem é saúdavel</p>
+        <span>R$ 14,50</span>
+      </li>
+      <li>
+        <h3> Vegano</h3>
+        <img src="img/veganofeijao.jpg" alt="vegano">
+        <p>Hamburguer vegano</p>
+        <span>R$ 24,50</span>
+      </li>
+
+      <li>
+        <h3>Vai um queijo ai?</h3>
+        <img src="img/queijo.jpg" alt="Hamburguer de queijo">
+        <p>Para os amantes de queijo</p>
+        <span>R$ 26,50</span>
+      </li>
+    </ul>
+  </section>
+  
+    </body>
+    </html>

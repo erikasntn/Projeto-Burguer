@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+.home{
+  padding: 100px 2%;
+  flex-direction: column;
+  text-align: center;
+  
+
+}
+#cardapio {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #cardapio h2 {
+    font-size: 2em;
+    margin-bottom: 0px;
+  }
+  
+  #cardapio ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  #cardapio li {
+    display: inline-block;
+    width: 30%;
+    height: 250px;
+    margin: 1%;
+    vertical-align: top;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 2px #ccc;
+    padding: 10px;
+  }
+  
+  
+  #cardapio li img {
+    width: 50%;
+}

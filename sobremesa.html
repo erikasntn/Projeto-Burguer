@@ -1,0 +1,113 @@
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+        href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+        rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="cardapio.css" />
+        <title>Projeto Burguer</title>
+        <style>
+        .dropdown {
+        width: 200px; /* define a largura do submenu */
+        position: absolute;
+        left: 0;
+        display: none;
+        background-color: var(--white); /* adiciona fundo branco ao submenu */
+        padding: 10px; /* adiciona espaço interno */
+        border-radius: 10px;
+    }
+
+    .nav-item {
+        position: relative;
+        /* adiciona espaço abaixo do item "Cardápio" */
+        margin-bottom: 10px;
+    }
+
+    .nav-item:hover .dropdown {
+        display: block;
+    }
+
+    .dropdown li {
+        width: 100%; /* define a largura dos itens do submenu */
+        margin-bottom: 20px; /* adiciona espaço vertical entre os itens */
+    
+    }
+    
+    
+        </style>
+    </head>
+    <body>
+        <header>
+        <nav class="navigation">
+            <a href="#" class="logo">F<span>oo</span>D B<span>uu</span>rguer</a>
+            <ul class="nav-menu">
+            <li class="nav-item"><a href="file:///C:/Users/ERIKA/Desktop/projetoo/index.html">Home</a></li>
+            <li class="nav-item"><a href="file:///C:/Users/ERIKA/Desktop/projetoo/sobrenos.html">Sobre nós</a></li>
+            <li class="nav-item">
+                <a href="file:///C:/Users/ERIKA/Desktop/projetoo/index.html">Cardápio</a>
+                <ul class="dropdown">
+                <li><a href="file:///C:/Users/ERIKA/Desktop/projetoo/lanches.html">Lanches</a></li>
+                <li><a href="file:///C:/Users/ERIKA/Desktop/projetoo/bebidas.html">Bebidas</a></li>
+                <li><a href="file:///C:/Users/ERIKA/Desktop/projetoo/sobremesa.html">Sobremesas</a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+            </li>
+            <li class="nav-item"><a href="file:///C:/Users/ERIKA/Desktop/projetoo/contato.html">Contato</a></li>
+            <li><a href="#"><i class="bx bx-search search-icon"></i></a></li>
+            </ul>
+        </nav>
+        <div class="menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+    <section class="home" id="cardapio">
+        <h2>Sobremesas</h2>
+        <ul>
+          <li>
+            <h3>Mil Folhas</h3>
+            <img src="img/mil folhas.jpg" alt="Prato 1">
+            <p>Nosso mil folhas, perfeito para comer com amigos</p>
+            <span>R$ 15,99</span>
+          </li>
+          <li>
+            <h3>Petit Gateau</h3>
+            <img src="img/Petit-Gateau.png" alt="Bebida 2">
+            <p>Classico Petit Gateau, feito para você</p>
+            <span>R$ 16,90</span>
+          </li>
+          <li>
+            <h3>Sorvetes</h3>
+            <img src="img/sorvete.jpg" alt="Prato 1">
+            <p>Chocolate, baunilha e mista</p>
+            <span>R$ 4,50</span>
+          </li>
+          <li>
+            <h3>Torta Holandesa</h3>
+            <img src="img/torta.jpg" alt="Prato 1">
+            <p>Deliciosa torta otima para comer acompanhado</p>
+            <span>R$ 7,90</span>
+          </li>
+          <li>
+            <h3>Mousse de Limão</h3>
+            <img src="img/mousse limao.jpg" alt="Prato 1">
+            <p>Algo doce mas não tão doce? Temos aqui!</p>
+            <span>R$ 7,90</span>
+          </li>
+          <li>
+            <h3>MilkShake</h3>
+            <img src="img/milkshake.jpg" alt="Prato 1">
+            <p>Refrescante milkshakes de diversos sabores</p>
+            <span>R$ 8,99</span>
+          </li>
+        </ul>
+      </section>
+      
+        </body>
+        </html>
